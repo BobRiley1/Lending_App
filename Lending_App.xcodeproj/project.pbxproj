@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5573EE11E1854D8001E9020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5573EE01E1854D8001E9020 /* AppDelegate.swift */; };
+		D5573EE31E1854D8001E9020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5573EE21E1854D8001E9020 /* ViewController.swift */; };
+		D5573EE61E1854D8001E9020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5573EE41E1854D8001E9020 /* Main.storyboard */; };
+		D5573EE81E1854D8001E9020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5573EE71E1854D8001E9020 /* Assets.xcassets */; };
+		D5573EEB1E1854D8001E9020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5573EE91E1854D8001E9020 /* LaunchScreen.storyboard */; };
+		D5573EF61E1854D8001E9020 /* Lending_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5573EF51E1854D8001E9020 /* Lending_AppTests.swift */; };
+		D5573F011E1854D8001E9020 /* Lending_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5573F001E1854D8001E9020 /* Lending_AppUITests.swift */; };
+		D5573F0F1E186BFA001E9020 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5573F0E1E186BFA001E9020 /* NewUserViewController.swift */; };
+		D55DDDBD1E1EB33A00BEC376 /* BorrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55DDDBC1E1EB33A00BEC376 /* BorrowViewController.swift */; };
+		D57E38801E1B923B009B9424 /* LendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E387F1E1B923B009B9424 /* LendingViewController.swift */; };
+		D57E38821E1C262F009B9424 /* ViewOfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E38811E1C262F009B9424 /* ViewOfferViewController.swift */; };
+		D57E38861E1C3B8A009B9424 /* NewLoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E38851E1C3B8A009B9424 /* NewLoanViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5573EF21E1854D8001E9020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5573ED51E1854D8001E9020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5573EDC1E1854D8001E9020;
+			remoteInfo = Lending_App;
+		};
+		D5573EFD1E1854D8001E9020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5573ED51E1854D8001E9020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5573EDC1E1854D8001E9020;
+			remoteInfo = Lending_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5573EDD1E1854D8001E9020 /* Lending_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lending_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5573EE01E1854D8001E9020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5573EE21E1854D8001E9020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5573EE51E1854D8001E9020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5573EE71E1854D8001E9020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5573EEA1E1854D8001E9020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5573EEC1E1854D8001E9020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5573EF11E1854D8001E9020 /* Lending_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lending_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5573EF51E1854D8001E9020 /* Lending_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lending_AppTests.swift; sourceTree = "<group>"; };
+		D5573EF71E1854D8001E9020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5573EFC1E1854D8001E9020 /* Lending_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lending_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5573F001E1854D8001E9020 /* Lending_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lending_AppUITests.swift; sourceTree = "<group>"; };
+		D5573F021E1854D8001E9020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5573F0E1E186BFA001E9020 /* NewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		D55DDDBC1E1EB33A00BEC376 /* BorrowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorrowViewController.swift; sourceTree = "<group>"; };
+		D57E387F1E1B923B009B9424 /* LendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LendingViewController.swift; sourceTree = "<group>"; };
+		D57E38811E1C262F009B9424 /* ViewOfferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOfferViewController.swift; sourceTree = "<group>"; };
+		D57E38851E1C3B8A009B9424 /* NewLoanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLoanViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5573EDA1E1854D8001E9020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5573EEE1E1854D8001E9020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5573EF91E1854D8001E9020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5573ED41E1854D8001E9020 = {
+			isa = PBXGroup;
+			children = (
+				D5573EDF1E1854D8001E9020 /* Lending_App */,
+				D5573EF41E1854D8001E9020 /* Lending_AppTests */,
+				D5573EFF1E1854D8001E9020 /* Lending_AppUITests */,
+				D5573EDE1E1854D8001E9020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5573EDE1E1854D8001E9020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5573EDD1E1854D8001E9020 /* Lending_App.app */,
+				D5573EF11E1854D8001E9020 /* Lending_AppTests.xctest */,
+				D5573EFC1E1854D8001E9020 /* Lending_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5573EDF1E1854D8001E9020 /* Lending_App */ = {
+			isa = PBXGroup;
+			children = (
+				D5573EE01E1854D8001E9020 /* AppDelegate.swift */,
+				D5573EE21E1854D8001E9020 /* ViewController.swift */,
+				D5573EE41E1854D8001E9020 /* Main.storyboard */,
+				D55DDDBC1E1EB33A00BEC376 /* BorrowViewController.swift */,
+				D57E38851E1C3B8A009B9424 /* NewLoanViewController.swift */,
+				D57E38811E1C262F009B9424 /* ViewOfferViewController.swift */,
+				D57E387F1E1B923B009B9424 /* LendingViewController.swift */,
+				D5573F0E1E186BFA001E9020 /* NewUserViewController.swift */,
+				D5573EE71E1854D8001E9020 /* Assets.xcassets */,
+				D5573EE91E1854D8001E9020 /* LaunchScreen.storyboard */,
+				D5573EEC1E1854D8001E9020 /* Info.plist */,
+			);
+			path = Lending_App;
+			sourceTree = "<group>";
+		};
+		D5573EF41E1854D8001E9020 /* Lending_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5573EF51E1854D8001E9020 /* Lending_AppTests.swift */,
+				D5573EF71E1854D8001E9020 /* Info.plist */,
+			);
+			path = Lending_AppTests;
+			sourceTree = "<group>";
+		};
+		D5573EFF1E1854D8001E9020 /* Lending_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5573F001E1854D8001E9020 /* Lending_AppUITests.swift */,
+				D5573F021E1854D8001E9020 /* Info.plist */,
+			);
+			path = Lending_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5573EDC1E1854D8001E9020 /* Lending_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5573F051E1854D8001E9020 /* Build configuration list for PBXNativeTarget "Lending_App" */;
+			buildPhases = (
+				D5573ED91E1854D8001E9020 /* Sources */,
+				D5573EDA1E1854D8001E9020 /* Frameworks */,
+				D5573EDB1E1854D8001E9020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lending_App;
+			productName = Lending_App;
+			productReference = D5573EDD1E1854D8001E9020 /* Lending_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5573EF01E1854D8001E9020 /* Lending_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5573F081E1854D8001E9020 /* Build configuration list for PBXNativeTarget "Lending_AppTests" */;
+			buildPhases = (
+				D5573EED1E1854D8001E9020 /* Sources */,
+				D5573EEE1E1854D8001E9020 /* Frameworks */,
+				D5573EEF1E1854D8001E9020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5573EF31E1854D8001E9020 /* PBXTargetDependency */,
+			);
+			name = Lending_AppTests;
+			productName = Lending_AppTests;
+			productReference = D5573EF11E1854D8001E9020 /* Lending_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5573EFB1E1854D8001E9020 /* Lending_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5573F0B1E1854D8001E9020 /* Build configuration list for PBXNativeTarget "Lending_AppUITests" */;
+			buildPhases = (
+				D5573EF81E1854D8001E9020 /* Sources */,
+				D5573EF91E1854D8001E9020 /* Frameworks */,
+				D5573EFA1E1854D8001E9020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5573EFE1E1854D8001E9020 /* PBXTargetDependency */,
+			);
+			name = Lending_AppUITests;
+			productName = Lending_AppUITests;
+			productReference = D5573EFC1E1854D8001E9020 /* Lending_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5573ED51E1854D8001E9020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Danny Cazzaniga";
+				TargetAttributes = {
+					D5573EDC1E1854D8001E9020 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D5573EF01E1854D8001E9020 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5573EDC1E1854D8001E9020;
+					};
+					D5573EFB1E1854D8001E9020 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5573EDC1E1854D8001E9020;
+					};
+				};
+			};
+			buildConfigurationList = D5573ED81E1854D8001E9020 /* Build configuration list for PBXProject "Lending_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5573ED41E1854D8001E9020;
+			productRefGroup = D5573EDE1E1854D8001E9020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5573EDC1E1854D8001E9020 /* Lending_App */,
+				D5573EF01E1854D8001E9020 /* Lending_AppTests */,
+				D5573EFB1E1854D8001E9020 /* Lending_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5573EDB1E1854D8001E9020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5573EEB1E1854D8001E9020 /* LaunchScreen.storyboard in Resources */,
+				D5573EE81E1854D8001E9020 /* Assets.xcassets in Resources */,
+				D5573EE61E1854D8001E9020 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5573EEF1E1854D8001E9020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5573EFA1E1854D8001E9020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5573ED91E1854D8001E9020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5573EE31E1854D8001E9020 /* ViewController.swift in Sources */,
+				D55DDDBD1E1EB33A00BEC376 /* BorrowViewController.swift in Sources */,
+				D57E38821E1C262F009B9424 /* ViewOfferViewController.swift in Sources */,
+				D5573F0F1E186BFA001E9020 /* NewUserViewController.swift in Sources */,
+				D57E38861E1C3B8A009B9424 /* NewLoanViewController.swift in Sources */,
+				D57E38801E1B923B009B9424 /* LendingViewController.swift in Sources */,
+				D5573EE11E1854D8001E9020 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5573EED1E1854D8001E9020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5573EF61E1854D8001E9020 /* Lending_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5573EF81E1854D8001E9020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5573F011E1854D8001E9020 /* Lending_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5573EF31E1854D8001E9020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5573EDC1E1854D8001E9020 /* Lending_App */;
+			targetProxy = D5573EF21E1854D8001E9020 /* PBXContainerItemProxy */;
+		};
+		D5573EFE1E1854D8001E9020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5573EDC1E1854D8001E9020 /* Lending_App */;
+			targetProxy = D5573EFD1E1854D8001E9020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5573EE41E1854D8001E9020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5573EE51E1854D8001E9020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5573EE91E1854D8001E9020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5573EEA1E1854D8001E9020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5573F031E1854D8001E9020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5573F041E1854D8001E9020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5573F061E1854D8001E9020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lending_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel.Lending-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5573F071E1854D8001E9020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lending_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel.Lending-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5573F091E1854D8001E9020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lending_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel.Lending-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lending_App.app/Lending_App";
+			};
+			name = Debug;
+		};
+		D5573F0A1E1854D8001E9020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Lending_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel.Lending-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lending_App.app/Lending_App";
+			};
+			name = Release;
+		};
+		D5573F0C1E1854D8001E9020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Lending_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel.Lending-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lending_App;
+			};
+			name = Debug;
+		};
+		D5573F0D1E1854D8001E9020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Lending_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Daniel.Lending-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lending_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5573ED81E1854D8001E9020 /* Build configuration list for PBXProject "Lending_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5573F031E1854D8001E9020 /* Debug */,
+				D5573F041E1854D8001E9020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5573F051E1854D8001E9020 /* Build configuration list for PBXNativeTarget "Lending_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5573F061E1854D8001E9020 /* Debug */,
+				D5573F071E1854D8001E9020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5573F081E1854D8001E9020 /* Build configuration list for PBXNativeTarget "Lending_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5573F091E1854D8001E9020 /* Debug */,
+				D5573F0A1E1854D8001E9020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5573F0B1E1854D8001E9020 /* Build configuration list for PBXNativeTarget "Lending_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5573F0C1E1854D8001E9020 /* Debug */,
+				D5573F0D1E1854D8001E9020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5573ED51E1854D8001E9020 /* Project object */;
+}
